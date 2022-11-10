@@ -37,14 +37,47 @@ Dal Modello alla concretezza: come rendere funzionale e fruibile un modello di M
 - Marshal
 
 ## Introduzione a Flask:
-* Impostazione del virtual environment: 
+* Impostazione del virtual environment:
+Nella predisposizione del lavoro deve essere prevista la creazione di una ambiente di lavro virtuale.
   * conda
   * virtualenv
-* WSGI (Web Server Gateway Interface)
-  * Werkzeug
-  * GUnicorrn NGINX
-* Helo Flask
+```commandline
+  # Installo virtualenv
+    C:\Users\...\> pip install virtualenv
+  #creo la cartella di lavoro e attivo il virtual env
+    C:\Users\...\>md projectFolder
+  #accedo alla cartella
+    C:\Users\...\>cd projectFolder
+  #creo l'ambiente virtuale in cui sara' ospitato il progetto
+    C:\Users\...\projectFolder> virtualenv project_env_name
+  #attivo l'ambiente di levoro
+    C:\Users\...\projectFolder>.\project_env_name\Scripts\activate
+  #davanti al prompt compare il nome dell'ambiente di lavoro 
+    (project_env_name) C:\Users\...\projectFolder>    
+  
+  ```
+In fase di uploading del progetto su un server remoto, per creare un file requirements.txt:
+```commandline
+# Creo il file requirements.txt
+ C:\Users\...\projectFolder> pip freeze > requirements.txt
+ -------
+# Sul server remoto per istallare le identiche versioni dei pacchetti:
+ C:\Users\...\projectFolder> pip install -r requirements.txt
+```
+
+* Hello Flask
 * Set delle variabili di ambiente
+```commandline
+set FLASK_APP=app.py
+set DEBUG=True  /False
+ ```
+* WSGI (Web Server Gateway Interface)
+Per eseguire un'applicazione Flask visibile da browser devo avviare il server.
+```commandline
+flask run
+```
+  * Werkzeug 
+  * GUnicorrn NGINX
 ********
 # Lezione 2 - 16/11/22
 * HTML + CSS: Bootstrap
