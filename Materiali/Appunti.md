@@ -60,6 +60,8 @@ In fase di uploading del progetto su un server remoto, per creare un file requir
 ```commandline
 # Creo il file requirements.txt
  C:\Users\...\projectFolder> pip freeze > requirements.txt
+# Se sotto Conda:
+C:\Users\...\projectFolder> pip list --format=freeze > requirements.txt 
  -------
 # Sul server remoto per istallare le identiche versioni dei pacchetti:
  C:\Users\...\projectFolder> pip install -r requirements.txt
@@ -71,13 +73,17 @@ In fase di uploading del progetto su un server remoto, per creare un file requir
 set FLASK_APP=app.py
 set DEBUG=True  /False
  ```
-* WSGI (Web Server Gateway Interface)
-Per eseguire un'applicazione Flask visibile da browser devo avviare il server.
+Per eseguire un'applicazione Flask visibile da browser devo avviare il server. In modaltà sviluppatore, 
+il server di default à un server lento, e non sicuro (fatto per agevolare le procedure di debug e gli aggiornamenti). 
+I server di tipo production sono server WSGI (Web Server Gateway Interface). I production server che sarà possibile 
+utilizzare sono (alcuni die quali svolgonoa cnhe molte altre funzioni):
+  * [Werkzeug](https://pypi.org/project/Werkzeug/)
+  * [GUnicorrn](https://gunicorn.org)
+  * [NGINX](https://www.nginx.com)
 ```commandline
 flask run
 ```
-  * Werkzeug 
-  * GUnicorrn NGINX
+
 ********
 # Lezione 2 - 16/11/22
 * HTML + CSS: Bootstrap
