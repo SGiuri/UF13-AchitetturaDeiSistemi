@@ -250,7 +250,9 @@ def user_loader(user_id):
 # Lezione 6 - 01/02/23
 * Costruzione della pagina profilo utente, importazione e salvataggio di un file
 * Costruzione della pagina per scrivere e aggiornare un post
-* 
+* Password and EMail Verificatioan
+  * https://pypi.org/project/python-jwt/
+  * 
 
 
 ********
