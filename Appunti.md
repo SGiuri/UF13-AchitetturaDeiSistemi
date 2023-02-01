@@ -248,19 +248,12 @@ def user_loader(user_id):
 ```
 ********
 # Lezione 6 - 01/02/23
-* Il 'current_user', modifica layout pagine
-* New_post page
 * Costruzione della pagina profilo utente, importazione e salvataggio di un file
-* Il recupero della password tramite una EMail Verification
-  * https://pypi.org/project/python-jwt/
-  * https://flask-mail.readthedocs.io/en/latest/
-  * (gmail, il mio account, password per le app)
-
-
+* Costruzione della pagina per scrivere e aggiornare un post
+*
 
 ********
 # Lezione 7 - 15/02/23
-* 
 ********
 # Lezione 8 - 01/03/23
 ********
@@ -269,4 +262,6 @@ Django cenni
 ********
 # Lezione 10 - 05/04/23
 Django cenni
+
+
 

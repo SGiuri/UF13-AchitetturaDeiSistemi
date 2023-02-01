@@ -1,7 +1,7 @@
 # Preparazione Lezione 5
 from flask import render_template, url_for, redirect, flash
 from myflaskblog import app, db, bcrypt
-from myflaskblog.forms import RegistrationForm, LoginForm
+from myflaskblog.forms import RegistrationForm, LoginForm, UpdateUserForm
 from myflaskblog.models import User
 from flask_login import login_user, logout_user, current_user, login_required
 
@@ -88,3 +88,31 @@ def logout():
     logout_user()
     flash(f'Logged Out', category='info')
     return redirect('/home')
+
+
+@app.route("/user_account")
+@login_required
+def user_account():
+    image_file = url_for(
+        'static', filename=f"images/{current_user.image_file}")
+
+    return render_template("user_account.html", title=f"{current_user.username} page",
+                           image_file=image_file)
+
+
+@app.route("/user_account/edit")
+@login_required
+def edit_user_account():
+    image_file = url_for(
+        'static', filename=f"images/{current_user.image_file}")
+
+    form = UpdateUserForm()
+
+    if form.validate_on_submit():
+        flash(
+            f"Your account has been updated {form.username.data}", category="success")
+        return redirect(url_for('user_account'))
+
+    return render_template("edit_user_account.html", title=f"{current_user.username} update page",
+                           image_file=image_file, form=form)
+
