@@ -1,0 +1,1148 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"New",
+				"NewPostForm"
+			],
+			[
+				"Te",
+				"TextAreaField"
+			],
+			[
+				"curr",
+				"current_app"
+			],
+			[
+				"c",
+				"create_app"
+			],
+			[
+				"re",
+				"render_template"
+			],
+			[
+				"e",
+				"error_handler_spec"
+			],
+			[
+				"ur",
+				"url_for"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"a",
+				"a_post"
+			],
+			[
+				"cur",
+				"current_user"
+			],
+			[
+				"fl",
+				"flask"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"confi",
+				"config_object"
+			],
+			[
+				"f",
+				"from_object"
+			],
+			[
+				"u",
+				"user_from_token"
+			],
+			[
+				"logo",
+				"logout_user"
+			],
+			[
+				"user",
+				"user_from_token"
+			],
+			[
+				"log",
+				"logout_user"
+			],
+			[
+				"flas",
+				"flask_mail"
+			],
+			[
+				"M",
+				"Mail"
+			],
+			[
+				"pass",
+				"passwordrecovery"
+			],
+			[
+				"ca",
+				"category="
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"l",
+				"login_message"
+			],
+			[
+				"login",
+				"login_manager"
+			],
+			[
+				"new",
+				"new_file_name"
+			],
+			[
+				"file",
+				"file_ext"
+			],
+			[
+				"spli",
+				"splitext"
+			],
+			[
+				"FIle",
+				"FileAllowed"
+			],
+			[
+				"FIl",
+				"FileAllowed"
+			],
+			[
+				"im",
+				"image_file"
+			],
+			[
+				"logout",
+				"logout_user"
+			],
+			[
+				"fla",
+				"flask_login"
+			],
+			[
+				"flask_",
+				"flask_login"
+			],
+			[
+				"lo",
+				"login_required"
+			],
+			[
+				"flask",
+				"flask_login"
+			],
+			[
+				"U",
+				"UserMixin"
+			],
+			[
+				"da",
+				"datetime"
+			],
+			[
+				"img",
+				"image_file"
+			],
+			[
+				"sql",
+				"flask_sqlalchemy"
+			],
+			[
+				"val",
+				"validators="
+			],
+			[
+				"wt",
+				"wtforms"
+			],
+			[
+				"Fl",
+				"FlaskForm"
+			],
+			[
+				"relatio",
+				"relationship"
+			],
+			[
+				"dummy",
+				"dummy_pwd"
+			],
+			[
+				"E",
+				"EqualTo"
+			],
+			[
+				"equ",
+				"EqualTo"
+			],
+			[
+				"S",
+				"StringField"
+			],
+			[
+				"di",
+				"div"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "myFlaskBlog/tests/conftest.py",
+			"settings":
+			{
+				"buffer_size": 858,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					19,
+					1,
+					"right_delete",
+					null,
+					"AQAAAI0CAAAAAAAAjQIAAAAAAAAUAAAAY29uZmlnX29iamVjdD1Db25maWc",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAChAgAAAAAAAI0CAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAABaAwAAaW1wb3J0IHB5dGVzdAppbXBvcnQgb3MKaW1wb3J0IGp3Y3J5cHRvLmp3ayBhcyBqd2sKCmZyb20gbXlmbGFza2Jsb2cgaW1wb3J0IGNyZWF0ZV9hcHAsIGRiCgpmcm9tIGZsYXNrLnRlc3RpbmcgaW1wb3J0IEZsYXNrQ2xpZW50CgprZXkgPSBqd2suSldLLmdlbmVyYXRlKGt0eT0nUlNBJywgc2l6ZT0yMDQ4KQoKCmNsYXNzIENvbmZpZzoKCiAgICAjICczNWY3Njk5MTk4MGFjOWQxZWM0MDNmNDM5MTEwODA1NGFlOWNlODI0JwogICAgU0VDUkVUX0tFWSA9IG9zLmVudmlyb24uZ2V0KCdTRUNSRVRfS0VZX0ZMQVNLX0JMT0cnKQogICAgU1FMQUxDSEVNWV9EQVRBQkFTRV9VUkkgPSAnc3FsaXRlOi8vJwogICAgSldLX0tFWSA9IGtleQogICAgTUFJTF9TRVJWRVIgPSAnc210cC5nb29nbGVtYWlsLmNvbScKICAgIE1BSUxfUE9SVCA9ICc1ODcnCiAgICBNQUlMX1VTRV9UTFMgPSBUcnVlCiAgICBNQUlMX1VTRVJOQU1FID0gb3MuZW52aXJvbi5nZXQoJ0VNQUlMX0ZMQVNLX0JMT0cnKQogICAgTUFJTF9QQVNTV09SRCA9IG9zLmVudmlyb24uZ2V0KCdQV0RfRkxBU0tfQkxPRycpCiAgICBNQUlMX0RFRkFVTFRfU0VOREVSID0gJ2Rvbm90cmVwbHlAZGVtby5jb20nCgoKQHB5dGVzdC5maXh0dXJlKCkKZGVmIGFwcCgpOgogICAgYXBwID0gY3JlYXRlX2FwcCgpCgogICAgd2l0aCBhcHAuYXBwX2NvbnRleHQoKToKICAgICAgICBkYi5jcmVhdGVfYWxsKCkKICAgIHlpZWxkIGFwcAoKCkBweXRlc3QuZml4dHVyZSgpCmRlZiBjbGllbnQoYXBwKToKICAgIHJldHVybiBhcHAudGVzdF9jbGllbnQoKQoKCkBweXRlc3QuZml4dHVyZSgpCmRlZiBydW5uZXIoYXBwKToKICAgIHJldHVybiBhcHAudGVzdF9jbGlfcnVubmVyKCkKAAAAAAAAAABaAwAAAAAAAAAAAAAAAAAAAAAAAFoDAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADDAgAAAAAAAMMCAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "myFlaskBlog/tests/test_project.py",
+			"settings":
+			{
+				"buffer_size": 2828,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"BAAAAF4AAAAAAAAAXgAAAAAAAAACAAAAIyA3AAAAAAAAADcAAAAAAAAAAgAAACMgDgAAAAAAAAAOAAAAAAAAAAIAAAAjIAAAAAAAAAAAAAAAAAAAAAACAAAAIyA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB7AAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"BAAAAC4GAAAAAAAALgYAAAAAAAACAAAAIyD3BQAAAAAAAPcFAAAAAAAAAgAAACMgugUAAAAAAAC6BQAAAAAAAAIAAAAjIJ0FAAAAAAAAnQUAAAAAAAACAAAAIyA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACcBQAAAAAAAFcGAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					23,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAVCgAAaW1wb3J0IGpzb24KZnJvbSBmbGFzayBpbXBvcnQgdXJsX2ZvciwgY3VycmVudF9hcHAKZnJvbSBmbGFza19sb2dpbiBpbXBvcnQgY3VycmVudF91c2VyCmZyb20gdGVzdHMgaW1wb3J0IGNvbmZ0ZXN0CgoKIyBkZWYgdGVzdF9sb2dpbihjbGllbnQpOgojICAgICB3aXRoIGNsaWVudC5hcHBsaWNhdGlvbi5hcHBfY29udGV4dCgpOgojICAgICAgICAgY2xpZW50LmFwcGxpY2F0aW9uLmNvbmZpZ1snU0VSVkVSX05BTUUnXSA9ICdsb2NhbGhvc3QnCiMgICAgICAgICBjbGllbnQuYXBwbGljYXRpb24uY29uZmlnWydQUkVGRVJSRURfVVJMX1NDSEVNRSddID0gJ2h0dHAnCiMgICAgICAgICByZXNwb25zZSA9IGNsaWVudC5nZXQodXJsX2ZvcigndXNlcnMubG9naW4nKSkKIyAgICAgICAgIGFzc2VydCByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAyMDAKIyBUZXN0IHRoYXQgdGhlIGxvZ2luIHBhZ2UgbG9hZHMgc3VjY2Vzc2Z1bGx5CgojICMgVGVzdCB0aGF0IGEgdXNlciBjYW4gbG9nIGluCiMgdXNlciA9IFVzZXIodXNlcm5hbWU9J3Rlc3R1c2VyJywgZW1haWw9J3Rlc3RAZXhhbXBsZS5jb20nKQojIHVzZXIuc2V0X3Bhc3N3b3JkKCd0ZXN0cGFzc3dvcmQnKQojIHdpdGggY3VycmVudF9hcHAuYXBwX2NvbnRleHQoKToKIyAgICAgZGIuc2Vzc2lvbi5hZGQodXNlcikKIyAgICAgZGIuc2Vzc2lvbi5jb21taXQoKQojIHJlc3BvbnNlID0gY2xpZW50LnBvc3QodXJsX2ZvcigndXNlcnMubG9naW4nKSwgZGF0YT17CiMgICAgICdlbWFpbCc6ICd0ZXN0QGV4YW1wbGUuY29tJywKIyAgICAgJ3Bhc3N3b3JkJzogJ3Rlc3RwYXNzd29yZCcsCiMgICAgICdyZW1lbWJlcl9tZSc6ICd5JwojIH0pCiMgYXNzZXJ0IGN1cnJlbnRfdXNlci51c2VybmFtZSA9PSAndGVzdHVzZXInCgojICMgVGVzdCB0aGF0IGEgdXNlciBjYW5ub3QgbG9nIGluIHdpdGggYW4gaW5jb3JyZWN0IHBhc3N3b3JkCiMgcmVzcG9uc2UgPSBjbGllbnQucG9zdCh1cmxfZm9yKCd1c2Vycy5sb2dpbicpLCBkYXRhPXsKIyAgICAgJ2VtYWlsJzogJ3Rlc3RAZXhhbXBsZS5jb20nLAojICAgICAncGFzc3dvcmQnOiAnd3JvbmdwYXNzd29yZCcsCiMgICAgICdyZW1lbWJlcl9tZSc6ICd5JwojIH0pCiMgYXNzZXJ0IHJlc3BvbnNlLnN0YXR1c19jb2RlID09IDMwMgojIGFzc2VydCAnV3JvbmcgZW1haWwgb3IgcGFzc3dvcmQnIGluIHJlc3BvbnNlLmdldF9kYXRhKGFzX3RleHQ9VHJ1ZSkKCiMgIyBUZXN0IHRoYXQgYSB1c2VyIGNhbid0IGFjY2VzcyB0aGUgbG9naW4gcGFnZSBpZiBhbHJlYWR5IGxvZ2dlZCBpbgojIHJlc3BvbnNlID0gY2xpZW50LmdldCh1cmxfZm9yKCd1c2Vycy5sb2dpbicpKQojIGFzc2VydCByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAzMDIKIyBhc3NlcnQgcmVzcG9uc2UubG9jYXRpb24gPT0gdXJsX2ZvcignbWFpbi5ob21lJywgX2V4dGVybmFsPVRydWUpCgoKZGVmIHRlc3RfcmVnaXN0ZXIoY2xpZW50KToKICAgICMgIyBUZXN0IHRoYXQgdGhlIHJlZ2lzdHJhdGlvbiBwYWdlIGxvYWRzIHN1Y2Nlc3NmdWxseQogICAgcmVzcG9uc2UgPSBjbGllbnQuZ2V0KHVybF9mb3IoJ3VzZXJzLnJlZ2lzdGVyJykpCiAgICBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMjAwCgojICMgVGVzdCB0aGF0IGEgdXNlciBjYW4gcmVnaXN0ZXIKIyByZXNwb25zZSA9IGNsaWVudC5wb3N0KHVybF9mb3IoJ3VzZXJzLnJlZ2lzdGVyJyksIGRhdGE9ewojICAgICAndXNlcm5hbWUnOiAndGVzdHVzZXInLAojICAgICAnZW1haWwnOiAndGVzdEBleGFtcGxlLmNvbScsCiMgICAgICdwYXNzd29yZCc6ICd0ZXN0cGFzc3dvcmQnLAojICAgICAncGFzc3dvcmQyJzogJ3Rlc3RwYXNzd29yZCcKIyB9KQojIGFzc2VydCByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAzMDIKIyBhc3NlcnQgcmVzcG9uc2UubG9jYXRpb24gPT0gdXJsX2ZvcigndXNlcnMubG9naW4nLCBfZXh0ZXJuYWw9VHJ1ZSkKIyBhc3NlcnQgJ1dlbGNvbWUgb24gYm9hcmQgdGVzdHVzZXInIGluIHJlc3BvbnNlLmdldF9kYXRhKGFzX3RleHQ9VHJ1ZSkKIyB3aXRoIGN1cnJlbnRfYXBwLmFwcF9jb250ZXh0KCk6CiMgICAgIHVzZXIgPSBVc2VyLnF1ZXJ5LmZpbHRlcl9ieSh1c2VybmFtZT0ndGVzdHVzZXInKS5maXJzdCgpCiMgICAgIGFzc2VydCB1c2VyLmVtYWlsID09ICd0ZXN0QGV4YW1wbGUuY29tJwojICAgICBhc3NlcnQgdXNlci5jaGVja19wYXNzd29yZCgndGVzdHBhc3N3b3JkJykKCiMgIyBUZXN0IHRoYXQgYSB1c2VyIGNhbid0IHJlZ2lzdGVyIHdpdGggYSB0YWtlbiB1c2VybmFtZQojIHJlc3BvbnNlID0gY2xpZW50LnBvc3QodXJsX2ZvcigndXNlcnMucmVnaXN0ZXInKSwgZGF0YT17CiMgICAgICd1c2VybmFtZSc6ICd0ZXN0dXNlcicsCiMgICAgICdlbWFpbCc6ICd0ZXN0MkBleGFtcGxlLmNvbScsCiMgICAgICdwYXNzd29yZCc6ICd0ZXN0cGFzc3dvcmQnLAojICAgICAncGFzc3dvcmQyJzogJ3Rlc3RwYXNzd29yZCcKIyB9KQojIGFzc2VydCByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAyMDAKIyBhc3NlcnQgJ1VzZXJuYW1lIGFscmVhZHkgZXhpc3RzJyBpbiByZXNwb25zZS5nZXRfZGF0YShhc190ZXh0PVRydWUpCgAAAAAAAAAAFQoAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABPBgAAAAAAAE8GAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"BAAAACgGAAAAAAAAKgYAAAAAAAAAAAAA8wUAAAAAAAD1BQAAAAAAAAAAAAC4BQAAAAAAALoFAAAAAAAAAAAAAJ0FAAAAAAAAnwUAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABOBgAAAAAAAJwFAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAHMAAAAAAAAAdAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABzAAAAAAAAAHMAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					34,
+					1,
+					"paste",
+					null,
+					"AQAAAHQAAAAAAAAAZgEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB0AAAAAAAAAHQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": "my"
+					},
+					"AwAAAHkAAAAAAAAAegAAAAAAAAAAAAAAegAAAAAAAAB6AAAAAAAAAAYAAABmbGFza3J6AAAAAAAAAHsAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB5AAAAAAAAAH8AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					40,
+					1,
+					"insert_completion",
+					{
+						"completion": "myflaskblog",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myflaskblog"
+					},
+					"AgAAAHkAAAAAAAAAeQAAAAAAAAACAAAAbXl5AAAAAAAAAIQAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB7AAAAAAAAAHsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "home"
+					},
+					"BQAAADcBAAAAAAAAOAEAAAAAAAAAAAAAOAEAAAAAAAA4AQAAAAAAAAUAAABoZWxsbzgBAAAAAAAAOQEAAAAAAAAAAAAAOQEAAAAAAAA6AQAAAAAAAAAAAAA6AQAAAAAAADsBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA3AQAAAAAAADwBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					48,
+					1,
+					"paste",
+					null,
+					"AgAAAFwBAAAAAAAAbAEAAAAAAAAAAAAAbAEAAAAAAABsAQAAAAAAAA0AAABIZWxsbywgV29ybGQh",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABcAQAAAAAAAGkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					53,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAXCwAAaW1wb3J0IGpzb24KZnJvbSBmbGFzayBpbXBvcnQgdXJsX2ZvciwgY3VycmVudF9hcHAKZnJvbSBmbGFza19sb2dpbiBpbXBvcnQgY3VycmVudF91c2VyCmZyb20gdGVzdHMgaW1wb3J0IGNvbmZ0ZXN0Cgpmcm9tIG15Zmxhc2tibG9nIGltcG9ydCBjcmVhdGVfYXBwCgoKZGVmIHRlc3RfY29uZmlnKCk6CiAgICBhc3NlcnQgbm90IGNyZWF0ZV9hcHAoKS50ZXN0aW5nCiAgICBhc3NlcnQgY3JlYXRlX2FwcCh7J1RFU1RJTkcnOiBUcnVlfSkudGVzdGluZwoKCmRlZiB0ZXN0X2hlbGxvKGNsaWVudCk6CiAgICByZXNwb25zZSA9IGNsaWVudC5nZXQoJy9ob21lJykKICAgIGFzc2VydCByZXNwb25zZS5kYXRhID09IGInV3JpdGUgYSBuZXIgcG9zdCcKCiMgZGVmIHRlc3RfbG9naW4oY2xpZW50KToKIyAgICAgd2l0aCBjbGllbnQuYXBwbGljYXRpb24uYXBwX2NvbnRleHQoKToKIyAgICAgICAgIGNsaWVudC5hcHBsaWNhdGlvbi5jb25maWdbJ1NFUlZFUl9OQU1FJ10gPSAnbG9jYWxob3N0JwojICAgICAgICAgY2xpZW50LmFwcGxpY2F0aW9uLmNvbmZpZ1snUFJFRkVSUkVEX1VSTF9TQ0hFTUUnXSA9ICdodHRwJwojICAgICAgICAgcmVzcG9uc2UgPSBjbGllbnQuZ2V0KHVybF9mb3IoJ3VzZXJzLmxvZ2luJykpCiMgICAgICAgICBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMjAwCiMgVGVzdCB0aGF0IHRoZSBsb2dpbiBwYWdlIGxvYWRzIHN1Y2Nlc3NmdWxseQoKIyAjIFRlc3QgdGhhdCBhIHVzZXIgY2FuIGxvZyBpbgojIHVzZXIgPSBVc2VyKHVzZXJuYW1lPSd0ZXN0dXNlcicsIGVtYWlsPSd0ZXN0QGV4YW1wbGUuY29tJykKIyB1c2VyLnNldF9wYXNzd29yZCgndGVzdHBhc3N3b3JkJykKIyB3aXRoIGN1cnJlbnRfYXBwLmFwcF9jb250ZXh0KCk6CiMgICAgIGRiLnNlc3Npb24uYWRkKHVzZXIpCiMgICAgIGRiLnNlc3Npb24uY29tbWl0KCkKIyByZXNwb25zZSA9IGNsaWVudC5wb3N0KHVybF9mb3IoJ3VzZXJzLmxvZ2luJyksIGRhdGE9ewojICAgICAnZW1haWwnOiAndGVzdEBleGFtcGxlLmNvbScsCiMgICAgICdwYXNzd29yZCc6ICd0ZXN0cGFzc3dvcmQnLAojICAgICAncmVtZW1iZXJfbWUnOiAneScKIyB9KQojIGFzc2VydCBjdXJyZW50X3VzZXIudXNlcm5hbWUgPT0gJ3Rlc3R1c2VyJwoKIyAjIFRlc3QgdGhhdCBhIHVzZXIgY2Fubm90IGxvZyBpbiB3aXRoIGFuIGluY29ycmVjdCBwYXNzd29yZAojIHJlc3BvbnNlID0gY2xpZW50LnBvc3QodXJsX2ZvcigndXNlcnMubG9naW4nKSwgZGF0YT17CiMgICAgICdlbWFpbCc6ICd0ZXN0QGV4YW1wbGUuY29tJywKIyAgICAgJ3Bhc3N3b3JkJzogJ3dyb25ncGFzc3dvcmQnLAojICAgICAncmVtZW1iZXJfbWUnOiAneScKIyB9KQojIGFzc2VydCByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAzMDIKIyBhc3NlcnQgJ1dyb25nIGVtYWlsIG9yIHBhc3N3b3JkJyBpbiByZXNwb25zZS5nZXRfZGF0YShhc190ZXh0PVRydWUpCgojICMgVGVzdCB0aGF0IGEgdXNlciBjYW4ndCBhY2Nlc3MgdGhlIGxvZ2luIHBhZ2UgaWYgYWxyZWFkeSBsb2dnZWQgaW4KIyByZXNwb25zZSA9IGNsaWVudC5nZXQodXJsX2ZvcigndXNlcnMubG9naW4nKSkKIyBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMzAyCiMgYXNzZXJ0IHJlc3BvbnNlLmxvY2F0aW9uID09IHVybF9mb3IoJ21haW4uaG9tZScsIF9leHRlcm5hbD1UcnVlKQoKCiMgZGVmIHRlc3RfcmVnaXN0ZXIoY2xpZW50KToKIyAgICAgIyAjIFRlc3QgdGhhdCB0aGUgcmVnaXN0cmF0aW9uIHBhZ2UgbG9hZHMgc3VjY2Vzc2Z1bGx5CiMgICAgIHJlc3BvbnNlID0gY2xpZW50LmdldCh1cmxfZm9yKCd1c2Vycy5yZWdpc3RlcicpKQojICAgICBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMjAwCgojICMgVGVzdCB0aGF0IGEgdXNlciBjYW4gcmVnaXN0ZXIKIyByZXNwb25zZSA9IGNsaWVudC5wb3N0KHVybF9mb3IoJ3VzZXJzLnJlZ2lzdGVyJyksIGRhdGE9ewojICAgICAndXNlcm5hbWUnOiAndGVzdHVzZXInLAojICAgICAnZW1haWwnOiAndGVzdEBleGFtcGxlLmNvbScsCiMgICAgICdwYXNzd29yZCc6ICd0ZXN0cGFzc3dvcmQnLAojICAgICAncGFzc3dvcmQyJzogJ3Rlc3RwYXNzd29yZCcKIyB9KQojIGFzc2VydCByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAzMDIKIyBhc3NlcnQgcmVzcG9uc2UubG9jYXRpb24gPT0gdXJsX2ZvcigndXNlcnMubG9naW4nLCBfZXh0ZXJuYWw9VHJ1ZSkKIyBhc3NlcnQgJ1dlbGNvbWUgb24gYm9hcmQgdGVzdHVzZXInIGluIHJlc3BvbnNlLmdldF9kYXRhKGFzX3RleHQ9VHJ1ZSkKIyB3aXRoIGN1cnJlbnRfYXBwLmFwcF9jb250ZXh0KCk6CiMgICAgIHVzZXIgPSBVc2VyLnF1ZXJ5LmZpbHRlcl9ieSh1c2VybmFtZT0ndGVzdHVzZXInKS5maXJzdCgpCiMgICAgIGFzc2VydCB1c2VyLmVtYWlsID09ICd0ZXN0QGV4YW1wbGUuY29tJwojICAgICBhc3NlcnQgdXNlci5jaGVja19wYXNzd29yZCgndGVzdHBhc3N3b3JkJykKCiMgIyBUZXN0IHRoYXQgYSB1c2VyIGNhbid0IHJlZ2lzdGVyIHdpdGggYSB0YWtlbiB1c2VybmFtZQojIHJlc3BvbnNlID0gY2xpZW50LnBvc3QodXJsX2ZvcigndXNlcnMucmVnaXN0ZXInKSwgZGF0YT17CiMgICAgICd1c2VybmFtZSc6ICd0ZXN0dXNlcicsCiMgICAgICdlbWFpbCc6ICd0ZXN0MkBleGFtcGxlLmNvbScsCiMgICAgICdwYXNzd29yZCc6ICd0ZXN0cGFzc3dvcmQnLAojICAgICAncGFzc3dvcmQyJzogJ3Rlc3RwYXNzd29yZCcKIyB9KQojIGFzc2VydCByZXNwb25zZS5zdGF0dXNfY29kZSA9PSAyMDAKIyBhc3NlcnQgJ1VzZXJuYW1lIGFscmVhZHkgZXhpc3RzJyBpbiByZXNwb25zZS5nZXRfZGF0YShhc190ZXh0PVRydWUpCgAAAAAAAAAAFwsAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABbAQAAAAAAAFsBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					62,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AwAAAD4BAAAAAAAAQAEAAAAAAAAAAAAAGwEAAAAAAAAdAQAAAAAAAAAAAAADAQAAAAAAAAUBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABtAQAAAAAAAAIBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					69,
+					1,
+					"right_delete",
+					null,
+					"AQAAAOYAAAAAAAAA5gAAAAAAAAARAAAAeydURVNUSU5HJzogVHJ1ZX0",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADmAAAAAAAAAPcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					75,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAAMCwAAaW1wb3J0IGpzb24KZnJvbSBmbGFzayBpbXBvcnQgdXJsX2ZvciwgY3VycmVudF9hcHAKZnJvbSBmbGFza19sb2dpbiBpbXBvcnQgY3VycmVudF91c2VyCmZyb20gdGVzdHMgaW1wb3J0IGNvbmZ0ZXN0Cgpmcm9tIG15Zmxhc2tibG9nIGltcG9ydCBjcmVhdGVfYXBwCgoKZGVmIHRlc3RfY29uZmlnKCk6CiAgICBhc3NlcnQgbm90IGNyZWF0ZV9hcHAoKS50ZXN0aW5nCiAgICBhc3NlcnQgY3JlYXRlX2FwcCgpLnRlc3RpbmcKCgojIGRlZiB0ZXN0X2hlbGxvKGNsaWVudCk6CiMgICAgIHJlc3BvbnNlID0gY2xpZW50LmdldCgnL2hvbWUnKQojICAgICBhc3NlcnQgcmVzcG9uc2UuZGF0YSA9PSBiJ1dyaXRlIGEgbmVyIHBvc3QnCgojIGRlZiB0ZXN0X2xvZ2luKGNsaWVudCk6CiMgICAgIHdpdGggY2xpZW50LmFwcGxpY2F0aW9uLmFwcF9jb250ZXh0KCk6CiMgICAgICAgICBjbGllbnQuYXBwbGljYXRpb24uY29uZmlnWydTRVJWRVJfTkFNRSddID0gJ2xvY2FsaG9zdCcKIyAgICAgICAgIGNsaWVudC5hcHBsaWNhdGlvbi5jb25maWdbJ1BSRUZFUlJFRF9VUkxfU0NIRU1FJ10gPSAnaHR0cCcKIyAgICAgICAgIHJlc3BvbnNlID0gY2xpZW50LmdldCh1cmxfZm9yKCd1c2Vycy5sb2dpbicpKQojICAgICAgICAgYXNzZXJ0IHJlc3BvbnNlLnN0YXR1c19jb2RlID09IDIwMAojIFRlc3QgdGhhdCB0aGUgbG9naW4gcGFnZSBsb2FkcyBzdWNjZXNzZnVsbHkKCiMgIyBUZXN0IHRoYXQgYSB1c2VyIGNhbiBsb2cgaW4KIyB1c2VyID0gVXNlcih1c2VybmFtZT0ndGVzdHVzZXInLCBlbWFpbD0ndGVzdEBleGFtcGxlLmNvbScpCiMgdXNlci5zZXRfcGFzc3dvcmQoJ3Rlc3RwYXNzd29yZCcpCiMgd2l0aCBjdXJyZW50X2FwcC5hcHBfY29udGV4dCgpOgojICAgICBkYi5zZXNzaW9uLmFkZCh1c2VyKQojICAgICBkYi5zZXNzaW9uLmNvbW1pdCgpCiMgcmVzcG9uc2UgPSBjbGllbnQucG9zdCh1cmxfZm9yKCd1c2Vycy5sb2dpbicpLCBkYXRhPXsKIyAgICAgJ2VtYWlsJzogJ3Rlc3RAZXhhbXBsZS5jb20nLAojICAgICAncGFzc3dvcmQnOiAndGVzdHBhc3N3b3JkJywKIyAgICAgJ3JlbWVtYmVyX21lJzogJ3knCiMgfSkKIyBhc3NlcnQgY3VycmVudF91c2VyLnVzZXJuYW1lID09ICd0ZXN0dXNlcicKCiMgIyBUZXN0IHRoYXQgYSB1c2VyIGNhbm5vdCBsb2cgaW4gd2l0aCBhbiBpbmNvcnJlY3QgcGFzc3dvcmQKIyByZXNwb25zZSA9IGNsaWVudC5wb3N0KHVybF9mb3IoJ3VzZXJzLmxvZ2luJyksIGRhdGE9ewojICAgICAnZW1haWwnOiAndGVzdEBleGFtcGxlLmNvbScsCiMgICAgICdwYXNzd29yZCc6ICd3cm9uZ3Bhc3N3b3JkJywKIyAgICAgJ3JlbWVtYmVyX21lJzogJ3knCiMgfSkKIyBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMzAyCiMgYXNzZXJ0ICdXcm9uZyBlbWFpbCBvciBwYXNzd29yZCcgaW4gcmVzcG9uc2UuZ2V0X2RhdGEoYXNfdGV4dD1UcnVlKQoKIyAjIFRlc3QgdGhhdCBhIHVzZXIgY2FuJ3QgYWNjZXNzIHRoZSBsb2dpbiBwYWdlIGlmIGFscmVhZHkgbG9nZ2VkIGluCiMgcmVzcG9uc2UgPSBjbGllbnQuZ2V0KHVybF9mb3IoJ3VzZXJzLmxvZ2luJykpCiMgYXNzZXJ0IHJlc3BvbnNlLnN0YXR1c19jb2RlID09IDMwMgojIGFzc2VydCByZXNwb25zZS5sb2NhdGlvbiA9PSB1cmxfZm9yKCdtYWluLmhvbWUnLCBfZXh0ZXJuYWw9VHJ1ZSkKCgojIGRlZiB0ZXN0X3JlZ2lzdGVyKGNsaWVudCk6CiMgICAgICMgIyBUZXN0IHRoYXQgdGhlIHJlZ2lzdHJhdGlvbiBwYWdlIGxvYWRzIHN1Y2Nlc3NmdWxseQojICAgICByZXNwb25zZSA9IGNsaWVudC5nZXQodXJsX2ZvcigndXNlcnMucmVnaXN0ZXInKSkKIyAgICAgYXNzZXJ0IHJlc3BvbnNlLnN0YXR1c19jb2RlID09IDIwMAoKIyAjIFRlc3QgdGhhdCBhIHVzZXIgY2FuIHJlZ2lzdGVyCiMgcmVzcG9uc2UgPSBjbGllbnQucG9zdCh1cmxfZm9yKCd1c2Vycy5yZWdpc3RlcicpLCBkYXRhPXsKIyAgICAgJ3VzZXJuYW1lJzogJ3Rlc3R1c2VyJywKIyAgICAgJ2VtYWlsJzogJ3Rlc3RAZXhhbXBsZS5jb20nLAojICAgICAncGFzc3dvcmQnOiAndGVzdHBhc3N3b3JkJywKIyAgICAgJ3Bhc3N3b3JkMic6ICd0ZXN0cGFzc3dvcmQnCiMgfSkKIyBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMzAyCiMgYXNzZXJ0IHJlc3BvbnNlLmxvY2F0aW9uID09IHVybF9mb3IoJ3VzZXJzLmxvZ2luJywgX2V4dGVybmFsPVRydWUpCiMgYXNzZXJ0ICdXZWxjb21lIG9uIGJvYXJkIHRlc3R1c2VyJyBpbiByZXNwb25zZS5nZXRfZGF0YShhc190ZXh0PVRydWUpCiMgd2l0aCBjdXJyZW50X2FwcC5hcHBfY29udGV4dCgpOgojICAgICB1c2VyID0gVXNlci5xdWVyeS5maWx0ZXJfYnkodXNlcm5hbWU9J3Rlc3R1c2VyJykuZmlyc3QoKQojICAgICBhc3NlcnQgdXNlci5lbWFpbCA9PSAndGVzdEBleGFtcGxlLmNvbScKIyAgICAgYXNzZXJ0IHVzZXIuY2hlY2tfcGFzc3dvcmQoJ3Rlc3RwYXNzd29yZCcpCgojICMgVGVzdCB0aGF0IGEgdXNlciBjYW4ndCByZWdpc3RlciB3aXRoIGEgdGFrZW4gdXNlcm5hbWUKIyByZXNwb25zZSA9IGNsaWVudC5wb3N0KHVybF9mb3IoJ3VzZXJzLnJlZ2lzdGVyJyksIGRhdGE9ewojICAgICAndXNlcm5hbWUnOiAndGVzdHVzZXInLAojICAgICAnZW1haWwnOiAndGVzdDJAZXhhbXBsZS5jb20nLAojICAgICAncGFzc3dvcmQnOiAndGVzdHBhc3N3b3JkJywKIyAgICAgJ3Bhc3N3b3JkMic6ICd0ZXN0cGFzc3dvcmQnCiMgfSkKIyBhc3NlcnQgcmVzcG9uc2Uuc3RhdHVzX2NvZGUgPT0gMjAwCiMgYXNzZXJ0ICdVc2VybmFtZSBhbHJlYWR5IGV4aXN0cycgaW4gcmVzcG9uc2UuZ2V0X2RhdGEoYXNfdGV4dD1UcnVlKQoAAAAAAAAAAAwLAAAAAAAAAAAAAAAAAAAAAAAADAsAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADmAAAAAAAAAOYAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/users/routes.py",
+			"settings":
+			{
+				"buffer_size": 5479,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/templates/layout.html",
+			"settings":
+			{
+				"buffer_size": 3820,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/posts/routes.py",
+			"settings":
+			{
+				"buffer_size": 3301,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/templates/user_profile.html",
+			"settings":
+			{
+				"buffer_size": 700,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 1192,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/models.py",
+			"settings":
+			{
+				"buffer_size": 1847,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/config.py",
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myFlaskBlog/myflaskblog/__init__.py",
+			"settings":
+			{
+				"buffer_size": 1067,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "myFlaskBlog/run.py",
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"markdo",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Anaconda: Find object usage"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/users"
+	],
+	"file_history":
+	[
+		"/C/Users/simon/AppData/Roaming/Sublime Text/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/simon/AppData/Roaming/Sublime Text/Packages/User/Side Bar.sublime-settings",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/config.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/__init__.py",
+		"/?wsl.localhost/Ubuntu/home/simone/myFlaskBlog/myflaskblog/templates/register.html",
+		"/?wsl.localhost/Ubuntu/home/simone/myFlaskBlog/myflaskblog/users/utils.py",
+		"/?wsl.localhost/Ubuntu/home/simone/myFlaskBlog/myflaskblog/users/routes.py",
+		"/?wsl.localhost/Ubuntu/home/simone/myFlaskBlog/myflaskblog/templates/layout.html",
+		"/?wsl.localhost/Ubuntu/home/simone/myFlaskBlog/myflaskblog/__init__.py",
+		"/?wsl.localhost/Ubuntu/home/simone/myFlaskBlog/myflaskblog/config.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/django_project/settings.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/blog/views.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/blog/tests.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/blog/models.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/blog/apps.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/blog/admin.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/django_project/urls.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/django_project/wsgi.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/django_project/asgi.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Django/django_project/manage.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/posts/routes.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/home.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/posts/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/edit_post.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/layout.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/users/routes.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/new_post.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/user_profile.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/edit_user_profile.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/models.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/main/utils.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/main/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/main/routes.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/posts/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/posts/utils.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/errors/handlers.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/about.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/errors/404.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/errors/500.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/templates/errors/403.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/__iit__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/handlers/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/handlers/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/handlers/handlers.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/users/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/main/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/users/utils.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione7- Blueprint/myFlaskBlog/myflaskblog/routes.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/routes.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/register.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/resetpassword.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/user_profile.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/passwordrecovery.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/models.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/login.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/new_post.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/home.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/layout.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione6/myFlaskBlog/myflaskblog/templates/about.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/myflaskblog/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/myflaskblog/templates/layout.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/myflaskblog/routes.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/myflaskblog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/myflaskblog/models.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/myflaskblog/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/templates/login.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione5/myFlaskBlog/temp.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/myFlaskBlog/__init__.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/myflaskblog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/myFlaskBlog/routes.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/myflaskblog/models.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/myFlaskBlog/models.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/templates/register.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/templates/new_post.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/templates/login.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/templates/layout.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/templates/home.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/templates/about.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/temp.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/Preparazione_Lezione5/myFlaskBlog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/templates/home.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/templates/about.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/templates/register.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/templates/new_post.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/templates/login.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/templates/layout.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/temp.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/instance/mydb.db",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Lezione4/myFlaskBlog/db_test.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/myFlaskBlog/templates/layout.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/myBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Lezioni/Appunti.md",
+		"/C/Users/simon/AppData/Local/Temp/18.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/ProgettiStudio/myBlog/forms.py",
+		"/C/Users/simon/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Materiali/Lezione4/myFlaskBlog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Materiali/Lezione3/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Materiali/Lezione4/myFlaskBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Materiali/Lezione3/myFlaskBlog/templates/register.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Materiali/Lezione3/myFlaskBlog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Materiali/Lezione3/myFlaskBlog/templates/login.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/run.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/temp.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Materiali/Lezione2/myFlaskBlog/run.py",
+		"/J/My Drive/GestioneMailITS/estraiMail_working.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/templates/home.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/templates/login.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/templates/layout.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/templates/register.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/forms.py",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myBlog/instance/site.db",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myFlaskBlog/templates/home.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myFlaskBlog/templates/about.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myFlaskBlog/templates/login.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myFlaskBlog/templates/new_post.html",
+		"/J/My Drive/ITS_ML/UF13 - Architettura dei Sistemi/Progetti/myFlaskBlog/templates/register.html"
+	],
+	"find":
+	{
+		"height": 29.6
+	},
+	"find_in_files":
+	{
+		"height": 111.2,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "myFlaskBlog/tests/conftest.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 332.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "myFlaskBlog/tests/test_project.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "myFlaskBlog/myflaskblog/users/routes.py",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2305,
+								2305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1101.6,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "myFlaskBlog/myflaskblog/templates/layout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 514.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "myFlaskBlog/myflaskblog/posts/routes.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 453.6,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "myFlaskBlog/myflaskblog/templates/user_profile.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								665,
+								665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "myFlaskBlog/myflaskblog/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1116,
+								1116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 191.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "myFlaskBlog/myflaskblog/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "myFlaskBlog/myflaskblog/config.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "myFlaskBlog/myflaskblog/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1067,
+								1067
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 212.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "myFlaskBlog/run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.6
+	},
+	"input":
+	{
+		"height": 57.6
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.400001526
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "p7.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

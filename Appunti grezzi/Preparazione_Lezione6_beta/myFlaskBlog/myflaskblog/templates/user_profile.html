@@ -1,0 +1,89 @@
+<!-- Lezione 5 -->
+
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+  <div class="media">
+    <img class="rounded-circle account-img" src={{ image_file }}>
+    <div class="media-body">
+      <h2 class="account-heading">{{ current_user.username }}</h2>
+      <p class="text-secondary"> {{ current_user.email }}</p>
+    </div>
+  </div>
+
+  {% if update %}
+    <!-- FORM HERE -->
+
+<div class="content-section">
+    <form method="POST" action="" enctype="multipart/form-data">
+
+        {{form.hidden_tag()}}
+
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4"> Update your profile </legend>
+
+            <div class="form-group">
+                {{ form.username.label(class="form-control-label") }}
+                {% if form.username.errors %}
+                    {{ form.username(class="form-control form-control-lg is-invalid")}}
+                    {% for error in form.username.errors%}
+                    <div>
+                        <span> {{ error }} </span>
+                    </div>
+                    {% endfor%}
+                {% else %}
+                    {{ form.username(class="form-control form-control-lg")}}
+                {% endif%}
+            </div>
+
+            <div class="form-group">
+                {{ form.email.label(class="form-control-label") }}
+                {% if form.email.errors %}
+                    {{ form.email(class="form-control form-control-lg is-invalid")}}
+                    {% for error in form.email.errors%}
+                    <div>
+                        <span> {{ error }} </span>
+                    </div>
+                    {% endfor%}
+                {% else %}
+                    {{ form.email(class="form-control form-control-lg")}}
+                {% endif%}
+         </div>
+
+    <div class="form-group">
+                    {{ form.image_file.label() }}
+                    {{ form.image_file(class="form-control-file")}}
+                    {% if form.image_file.errors %}
+                    {% for error in form.image_file.errors %}
+                    <div >
+                        <span class="text-danger"> {{ error }} </span> <br>
+                    </div>
+                    {% endfor%}
+                    {% endif %}
+                 </div>
+
+    <div class="form-group">
+        {{form.submit(class="btn btn-outline-info")}}
+    </div>
+</fieldset>
+</form>
+
+</div>
+
+
+
+  {% else %}
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Update user imformation? <a class="ml-2" href="{{ url_for('user_profile_update') }}">Click Here</a>
+        </small>
+    </div>
+  {% endif %}
+
+
+</div>
+
+
+{% endblock content %}
+

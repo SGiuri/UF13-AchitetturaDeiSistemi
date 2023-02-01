@@ -1,0 +1,29 @@
+<!-- Lezione 5 -->
+
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+  <div class="media">
+    <img class="rounded-circle account-img" src={{ image_file }}>
+    <div class="media-body">
+
+      <h2> <a class="mr-2" href="{{ url_for('posts.an_author_posts', author_username=current_user.username)}}"> {{ current_user.username }} </a></h2>
+      <p class="text-secondary"> {{ current_user.email }}</p>
+    </div>
+  </div>
+
+
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            Update user imformation? <a class="ml-2" href="{{ url_for('users.edit_user_profile') }}">Click Here</a>
+        </small>
+    </div>
+
+
+
+</div>
+
+
+{% endblock content %}
+

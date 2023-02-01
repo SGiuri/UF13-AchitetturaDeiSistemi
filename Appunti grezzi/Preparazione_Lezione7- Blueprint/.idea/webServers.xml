@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c791d05b-8783-4a28-a9b4-d562e148de07" name="FlaskServer" url="http://139.162.128.109/">
+        <fileTransfer rootFolder="/home/simone" accessType="SFTP" host="139.162.128.109" port="22" sshConfigId="0431af27-5c0c-4aa8-9676-d4b7f72c3efd" sshConfig="simone@139.162.128.109:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

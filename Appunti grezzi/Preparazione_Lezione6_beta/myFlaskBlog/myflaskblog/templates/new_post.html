@@ -1,0 +1,50 @@
+<!-- Lezione 5 -->
+
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+    <form method="POST" action="">
+
+        {{form.hidden_tag()}}
+
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4"> Write new post!</legend>
+
+            <div class="form-group">
+                {{ form.title.label(class="form-control-label") }}
+                {% if form.title.errors %}
+                    {{ form.title(class="form-control form-control-lg is-invalid")}}
+                    {% for error in form.title.errors%}
+                        <div>
+                            <span> {{ error }} </span>
+                        </div>
+                    {% endfor%}
+                {% else %}
+                    {{ form.title(class="form-control form-control-lg")}}
+                {% endif%}
+            </div>
+
+
+            <div class="form-group">
+                {{ form.post_content.label(class="form-control-label") }}
+                {% if form.post_content.errors %}
+                        {{ form.post_content(class="form-control form-control-lg is-invalid")}}
+                        {% for error in form.post_content.errors%}
+                        <div>
+                            <span> {{ error }} </span>
+                        </div>
+                        {% endfor%}
+                {% else %}
+                    {{ form.post_content(class="form-control form-control-lg")}}
+                {% endif%}
+            </div>
+
+            <div class="form-group">
+                {{form.submit(class="btn btn-outline-info")}}
+            </div>
+        </fieldset>
+    </form>
+
+</div>
+{% endblock content %}

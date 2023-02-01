@@ -1,0 +1,37 @@
+<!-- Lezione 5 -->
+
+{% extends "layout.html" %}
+{% block content %}
+    {% for post in posts %}
+
+            <article class="media content-section">
+              <div class="media-body">
+                <div class="article-metadata">
+                  <a class="mr-2" href="{{ url_for('posts.an_author_posts', author_username=post.author.username)}}">{{ post.author.username }}</a>
+                  <small class="text-muted">{{ post.date_posted }}</small>
+                </div>
+                <h2><a class="article-title" href="{{url_for('posts.a_post', post_id=post.id)}}">{{ post.title }}</a></h2>
+                <p class="article-content">{{ post.post_content }}</p>
+
+            {% if current_user == post.author %}
+                <div class="text-muted">
+                    <a class="ml-2" href="{{ url_for('posts.edit_post',  post_id=post.id) }}">Edit post</a>
+                </div>
+
+            {% endif %}
+            </div>
+            </article>
+
+    {% endfor %}
+    <div class="border-top pt-3">
+        <div class="text-muted">
+            <a class="ml-2" href="{{ url_for('posts.new_post') }}">Write a ner post</a>
+        </div>
+    </div>
+{% endblock content %}
+
+
+
+
+
+
