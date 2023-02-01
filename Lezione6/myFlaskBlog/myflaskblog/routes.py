@@ -100,7 +100,7 @@ def user_account():
                            image_file=image_file)
 
 
-@app.route("/user_account/edit")
+@app.route("/user_account/edit", methods=['POST', 'GET'])
 @login_required
 def edit_user_account():
     image_file = url_for(
@@ -109,10 +109,22 @@ def edit_user_account():
     form = UpdateUserForm()
 
     if form.validate_on_submit():
+
+        if current_user.username != form.username.data:
+            current_user.username = form.username.data
+
+        if current_user.email != form.email.data:
+            current_user.email = form.email.data
+
+        db.session.commit()
+
         flash(
             f"Your account has been updated {form.username.data}", category="success")
         return redirect(url_for('user_account'))
+    else:
+
+        form.username.data = current_user.username
+        form.email.data = current_user.email
 
     return render_template("edit_user_account.html", title=f"{current_user.username} update page",
                            image_file=image_file, form=form)
-

@@ -52,7 +52,18 @@
 
 
                 <div class="form-group">
-                    {{form.image_file(class="btn")}}
+                    {{ form.image_file.label(class="form-control-label") }}
+                    {% if form.image_file.errors %}
+                    {{ form.image_file(class="btn is-invalid")}}
+                    {% for error in form.image_file.errors%}
+                    <div>
+                        <span> {{ error }} </span>
+                    </div>
+                    {% endfor%}
+                    {% else %}
+                    {{ form.image_file(class="btn")}}
+                    {% endif%}
+
                 </div>
 
 

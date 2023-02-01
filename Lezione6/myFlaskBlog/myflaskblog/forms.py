@@ -7,6 +7,7 @@ from wtforms import StringField, EmailField, PasswordField, SubmitField, Boolean
 from wtforms.validators import Length, DataRequired, Email, EqualTo, ValidationError
 from myflaskblog.models import User
 
+from flask_login import current_user
 '''
 Registrazione:
 username
@@ -66,7 +67,7 @@ class UpdateUserForm(FlaskForm):
     #    email = EmailField('email', validators=[Length(2, 100)])
     email = StringField('Email', validators=[
         Length(min=2, max=100), Email(), DataRequired()])
-    image_file = FileField('Image File', validators=[
+    image_file = FileField('Update your Avatar', validators=[
         FileAllowed(['jpg', 'png'])])
 
     submit = SubmitField('Update Your Profile!')
@@ -75,14 +76,14 @@ class UpdateUserForm(FlaskForm):
     #     if True:
     #         raise ValdationError('Validation Message')
 
-    # def validate_email(self, email):
-    #     user = User.query.filter_by(email=email.data).first()
-    #     if user:
-    #         raise ValidationError('Email already registered')
+    def validate_email(self, email):
+        if email.data != current_user.email:
+            user = User.query.filter_by(email=email.data).first()
+            if user:
+                raise ValidationError('Email already registered')
 
-    # def validate_username(self, username):
-    #     user = User.query.filter_by(username=username.data).first()
-    #     if user:
-    #         raise ValidationError('Username already registered')
-   #     if user:
-    #         raise ValidationError('Username already registered')
+    def validate_username(self, username):
+        if username.data != current_user.username:
+            user = User.query.filter_by(username=username.data).first()
+            if user:
+                raise ValidationError('Username already registered')
