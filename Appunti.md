@@ -246,22 +246,34 @@ def user_loader(user_id):
     return User.query.get(int(user_id))
     
 ```
+
 ********
+
 # Lezione 6 - 01/02/23
+
 * Costruzione della pagina profilo utente, importazione e salvataggio di un file
 * Costruzione della pagina per scrivere e aggiornare un post
 *
 
 ********
+
 # Lezione 7 - 15/02/23
+
+* Salvataggio di un file nella cartella static
+* Processo di reset della password: JWT
+
 ********
+
 # Lezione 8 - 01/03/23
+
 ********
+
 # Lezione 9 - 29/03/23
+
 Django cenni
 ********
+
 # Lezione 10 - 05/04/23
+
 Django cenni
-
-
 

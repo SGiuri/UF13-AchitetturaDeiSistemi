@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="content-section">
+    <div class="media">
+        <img class="rounded-circle account-img" src={{ image_file }}>
+        <div class="media-body">
+
+            <h2><a class="mr-2" href="#"> {{ current_user.username }} </a></h2>
+            <p class="text-secondary"> {{ current_user.email }}</p>
+        </div>
+    </div>
+
+    <div class="border-top pt-3">
+
+
+        <form method="POST" action="" enctype="multipart/form-data">
+
+            {{form.hidden_tag()}}
+
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4"> Regiter Now!</legend>
+
+
+                <div class="form-group">
+                    {{ form.username.label(class="form-control-label") }}
+                    {% if form.username.errors %}
+                    {{ form.username(class="form-control form-control-lg is-invalid")}}
+                    {% for error in form.username.errors%}
+                    <div>
+                        <span> {{ error }} </span>
+                    </div>
+                    {% endfor%}
+                    {% else %}
+                    {{ form.username(class="form-control form-control-lg")}}
+                    {% endif%}
+                </div>
+
+                <div class="form-group">
+                    {{ form.email.label(class="form-control-label") }}
+                    {% if form.email.errors %}
+                    {{ form.email(class="form-control form-control-lg is-invalid")}}
+                    {% for error in form.email.errors%}
+                    <div>
+                        <span> {{ error }} </span>
+                    </div>
+                    {% endfor%}
+                    {% else %}
+                    {{ form.email(class="form-control form-control-lg")}}
+                    {% endif%}
+                </div>
+
+
+                <div class="form-group">
+                    {{ form.image_file.label(class="form-control-label") }}
+                    {% if form.image_file.errors %}
+                    {{ form.image_file(class="btn is-invalid")}}
+                    {% for error in form.image_file.errors%}
+                    <div>
+                        <span class="text-danger"> {{ error }} </span>
+                    </div>
+                    {% endfor%}
+                    {% else %}
+                    {{ form.image_file(class="btn")}}
+                    {% endif%}
+
+                </div>
+
+
+                <div class="form-group">
+                    {{form.submit(class="btn btn-outline-info")}}
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+</div>
+
+{% endblock content %}
