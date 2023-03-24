@@ -3,44 +3,48 @@
 {% extends "layout.html" %}
 {% block content %}
 
+
 <div class="content-section">
     <form method="POST" action="">
 
         {{form.hidden_tag()}}
 
         <fieldset class="form-group">
-            <legend class="border-bottom mb-4"> Write Post!</legend>
-
+            <legend class="border-bottom mb-4"> Regiter Now!</legend>
 
             <div class="form-group">
-                {{ form.post_title.label(class="form-control-label") }}
-                {% if form.post_title.errors %}
-                {{ form.post_title(class="form-control form-control-lg is-invalid")}}
-                {% for error in form.post_title.errors%}
+                {{ form.email.label(class="form-control-label") }}
+                {% if form.email.errors %}
+                {{ form.email(class="form-control form-control-lg is-invalid")}}
+                {% for error in form.email.errors%}
                 <div>
                     <span> {{ error }} </span>
                 </div>
                 {% endfor%}
                 {% else %}
-                {{ form.post_title(class="form-control form-control-lg")}}
+                {{ form.email(class="form-control form-control-lg")}}
                 {% endif%}
             </div>
 
+
             <div class="form-group">
-                {{ form.post_content.label(class="form-control-label") }}
-                {% if form.post_content.errors %}
-                {{ form.post_content(class="form-control form-control-lg is-invalid")}}
-                {% for error in form.post_content.errors%}
+                {{ form.password.label(class="form-control-label") }}
+                {% if form.password.errors %}
+                {{ form.password(class="form-control form-control-lg is-invalid")}}
+                {% for error in form.password.errors%}
                 <div>
                     <span> {{ error }} </span>
                 </div>
                 {% endfor%}
                 {% else %}
-                {{ form.post_content(class="form-control form-control-lg")}}
+                {{ form.password(class="form-control form-control-lg")}}
                 {% endif%}
             </div>
 
-
+            <div class="form-group">
+                {{form.remember_me.label}}
+                {{form.remember_me}}
+            </div>
             <div class="form-group">
                 {{form.submit(class="btn btn-outline-info")}}
             </div>
