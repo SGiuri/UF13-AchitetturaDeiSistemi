@@ -7,10 +7,10 @@
 <article class="media content-section">
     <div class="media-body">
         <div class="article-metadata">
-            <a class="mr-2" href=" {{ url_for('posts', user_id=post.user_id) }}">{{ post.author.username }}</a>
+            <a class="mr-2" href={{url_for('users_posts', author_username=post.author.username)}}>{{ post.author.username }}</a>
             <small class="text-muted">{{ post.date_posted.strftime("%d/%m/%Y %H:%M") }}</small>
         </div>
-        <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+        <h2><a class="article-title" href="{{url_for('a_post', post_id=post.id)}">{{ post.title }}</a></h2>
         <p class="article-content">{{ post.post_content }}</p>
     </div>
 </article>
