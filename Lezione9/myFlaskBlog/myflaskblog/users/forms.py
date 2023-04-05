@@ -1,27 +1,15 @@
-# Preparazione Lezione 5
-
+#Users
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
 
-from wtforms import StringField, EmailField
-from wtforms import PasswordField, SubmitField, BooleanField, TextAreaField
+from wtforms import StringField
+from wtforms import PasswordField, SubmitField, BooleanField
 from wtforms.validators import Length, DataRequired, Email, EqualTo, ValidationError
 from myflaskblog.models import User
 
 from flask_login import current_user
 
-'''
-Registrazione:
-username
-email
-password
-confirm_password
 
-Login:
-email
-password
-remembre_me
-'''
 class RegistrationForm(FlaskForm):
     # Campo per l'username con lunghezza minima e massima, non può essere vuoto
     username = StringField('Username', validators=[
@@ -92,10 +80,3 @@ class UpdateUserForm(FlaskForm):
             user = User.query.filter_by(username=username.data).first()
             if user:
                 raise ValidationError('Username already registered')
-
-class NewPostForm(FlaskForm):
-    post_title = StringField('Post Title', validators=[
-        Length(min=2, max=100), DataRequired()])
-    post_content = TextAreaField('Post Content', validators=[DataRequired()])
-
-    submit = SubmitField('Post Message')
